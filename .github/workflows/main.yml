@@ -12,6 +12,6 @@ jobs:
       - uses: azure/webapps-deploy@v1
       
 env:
-  name: cmst385-ahopkins27
+  name: cmst-ahopkins27
   slot-name: production
   publish-profile: ${{secrets.AppServiceCMST385}}
