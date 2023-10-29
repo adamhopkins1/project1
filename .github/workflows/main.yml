@@ -2,7 +2,7 @@ name: Deploy HTML Files to AppService - CMST385
 on:
   push: 
   watch:
-    - main
+    - home
 jobs:
   build-and-deploy:
       runs-on: windows-latest
