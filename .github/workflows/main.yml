@@ -1,7 +1,6 @@
----
 name: Deploy HTML Files to AppService - CMST385
 on:
-  push: null
+  push: 
   watch:
     - main
 jobs:
